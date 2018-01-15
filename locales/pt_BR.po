@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GroupButler 4.0\n"
 "Report-Msgid-Bugs-To: https://telegram.me/bac0nnn\n"
 "POT-Creation-Date: 2017-02-19 01:06+0000\n"
-"PO-Revision-Date: 2017-03-01 10:41-0300\n"
+"PO-Revision-Date: 2018-01-15 13:00-0200\n"
 "Last-Translator: Nicholas Guriev <guriev-ns@ya.ru>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #: bot.lua:164
 msgid "🐞 Sorry, a *bug* occurred"
@@ -67,7 +67,7 @@ msgstr "%s, este tipo de mídia não é permitido nesse chat (<b>%d/%d</b>)"
 
 #: plugins/antispam.lua:62
 msgid "telegram.me link"
-msgstr "link telegram.me "
+msgstr "link telegram.me"
 
 #: plugins/antispam.lua:62
 msgid "message from a channel"
@@ -624,7 +624,7 @@ msgstr "Documentos"
 
 #: plugins/dashboard.lua:136 plugins/mediasettings.lua:25
 msgid "Vocal messages"
-msgstr "Messagens de voz "
+msgstr "Messagens de voz"
 
 #: plugins/dashboard.lua:137 plugins/mediasettings.lua:26
 msgid "Links"
@@ -1572,7 +1572,7 @@ msgstr ""
 "dele na lista de moderadores.\n"
 "`/demote [por resposta|nome de usuário|menção de texto|ID]`: rebaixa um "
 "moderador para o cargo de usuário normal.\n"
-"`/modlist`: mostra a lista de moderadores."
+"`/modlist`: mostra a lista de moderadores"
 
 #: plugins/help.lua:287
 msgid ""
@@ -1892,7 +1892,7 @@ msgstr "Advertências resetadas"
 
 #: plugins/logchannel.lua:65
 msgid "New members"
-msgstr "Novos membros "
+msgstr "Novos membros"
 
 #: plugins/logchannel.lua:66
 msgid "Media warns"
@@ -2181,23 +2181,23 @@ msgstr "Nova ação ao atingir o número máximo de advertências: kick"
 
 #: plugins/menu.lua:75
 msgid "Senders of arab messages will be kicked"
-msgstr "Quem enviar mensagens em árabe será kickado "
+msgstr "Quem enviar mensagens em árabe será kickado"
 
 #: plugins/menu.lua:76
 msgid "Senders of arab messages will be banned"
-msgstr "Quem enviar mensagens em árabe será banido "
+msgstr "Quem enviar mensagens em árabe será banido"
 
 #: plugins/menu.lua:77
 msgid "Arab language allowed"
-msgstr "A língua Árabe está permitida "
+msgstr "A língua Árabe está permitida"
 
 #: plugins/menu.lua:78
 msgid "The use of the RTL character will lead to a kick"
-msgstr "Quem usar o caractere RTL será kickado "
+msgstr "Quem usar o caractere RTL será kickado"
 
 #: plugins/menu.lua:79
 msgid "The use of the RTL character will lead to a ban"
-msgstr "Quem usar o caractere RTL será banido "
+msgstr "Quem usar o caractere RTL será banido"
 
 #: plugins/menu.lua:80
 msgid "RTL character allowed"
@@ -2217,7 +2217,7 @@ msgstr "Extra"
 
 #: plugins/menu.lua:158 utilities.lua:661
 msgid "Anti-flood"
-msgstr "Anti-flood "
+msgstr "Anti-flood"
 
 #: plugins/menu.lua:159 utilities.lua:663
 msgid "Silent mode"
@@ -2265,7 +2265,7 @@ msgstr ""
 
 #: plugins/moderators.lua:28 plugins/moderators.lua:54
 msgid "Reply to someone, or mention him"
-msgstr "_Responda alguém, ou mencione-o_ "
+msgstr "Responda alguém, ou mencione-o"
 
 #: plugins/moderators.lua:33
 msgid "You can't promote or demote me"
@@ -2277,7 +2277,7 @@ msgid ""
 "If you want to teach me who is he, forward me a message from him"
 msgstr ""
 "Eu nunca vi este usuário antes.\n"
-"Se você deseja me mostrar quem ele é, me encaminhe uma mensagem dele "
+"Se você deseja me mostrar quem ele é, me encaminhe uma mensagem dele"
 
 #: plugins/moderators.lua:58
 msgid "I'm sorry, you can't promote this user because he's already an admin"
@@ -2394,7 +2394,7 @@ msgstr "%s foi <b>banido</b> por flood!"
 #: plugins/onmessage.lua:94
 #, lua-format
 msgid "%s <b>kicked</b> for flood!"
-msgstr " %s foi <b>kickado</b> por flood!"
+msgstr "%s foi <b>kickado</b> por flood!"
 
 #: plugins/onmessage.lua:137
 #, lua-format
@@ -2659,11 +2659,11 @@ msgstr "Por favor escreva algo após este comando: `/setrules `"
 
 #: plugins/rules.lua:65
 msgid "Rules has been deleted."
-msgstr "As regras foram removidas. "
+msgstr "As regras foram removidas."
 
 #: plugins/rules.lua:78
 msgid "New rules *saved successfully*!"
-msgstr "As novas regras foram *salvas com sucesso*! "
+msgstr "As novas regras foram *salvas com sucesso*!"
 
 #: plugins/service.lua:19
 #, lua-format
@@ -2702,7 +2702,7 @@ msgstr "Eu fui removido de %s [<code>%d</code>], um de seus subgrupos"
 
 #: plugins/setlang.lua:21 plugins/setlang.lua:31
 msgid "*List of available languages*:"
-msgstr "*Lista de idiomas disponíveis:* "
+msgstr "*Lista de idiomas disponíveis*:"
 
 #: plugins/setlang.lua:27
 msgid "You are not an admin"
@@ -2997,7 +2997,7 @@ msgstr "%s banido: o usuário estava na lista de bloqueados"
 #: plugins/welcome.lua:222
 #, lua-format
 msgid "@%s _banned: antibot is on_"
-msgstr "@%s _banido: antibot está ligado_ "
+msgstr "@%s _banido: antibot está ligado_"
 
 #: utilities.lua:331
 msgid "More info [here](https://telegram.me/GB_tutorials/12)"
@@ -3044,7 +3044,7 @@ msgstr ""
 #: utilities.lua:341
 msgid "One of the inline buttons you are trying to set is missing the URL"
 msgstr ""
-"Um dos botões inline que você está tentando configurar tem um link faltando."
+"Um dos botões inline que você está tentando configurar tem um link faltando"
 
 #: utilities.lua:342
 msgid "One of the inline buttons you are trying to set doesn't have a name"
@@ -3208,7 +3208,7 @@ msgstr "A mensagem de boas-vindas será mostrada"
 
 #: utilities.lua:738
 msgid "Goodbye message will be displayed"
-msgstr "A mensagem de despedida será mostrada "
+msgstr "A mensagem de despedida será mostrada"
 
 #: utilities.lua:739
 msgid "#extra commands are now available for all"
