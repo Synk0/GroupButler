@@ -104,8 +104,7 @@ msgstr "Permitir/proibir mensagens encaminhadas de canais"
 
 #: plugins/antispam.lua:131
 msgid "Set how many times the bot should warn the user before kick/ban him"
-msgstr ""
-"Definir quantas vezes o bot deve avisar o usuário antes de kick / ban nele "
+msgstr "Defina quantas vezes o bot deve avisar o usuário antes de kickar/banir"
 
 #: plugins/antispam.lua:133 plugins/floodmanager.lua:15
 #: plugins/logchannel.lua:41 plugins/menu.lua:40 plugins/moderators.lua:149
@@ -178,7 +177,7 @@ msgid ""
 "%d links were already in the list"
 msgstr ""
 "\n"
-"%d links já estavam na Lista de Permissões."
+"%d links já estão na lista"
 
 #: plugins/antispam.lua:273
 msgid ""
@@ -2489,10 +2488,7 @@ msgstr "👥 Grupos"
 
 #: plugins/private.lua:26
 msgid "Pong!"
-msgstr ""
-"Você esperava que eu dissesse Pong?\n"
-"Então tá...\n"
-"*Pong!*"
+msgstr "Pong!"
 
 #: plugins/private.lua:39 plugins/private.lua:52
 #, lua-format
@@ -2780,8 +2776,7 @@ msgstr "%s é um membro do grupo"
 
 #: plugins/users.lua:150
 msgid "Reply to an user or mention them by username or numerical ID"
-msgstr ""
-"Responda para um usuário ou mencione-o com o seu nome de usuário ou ID."
+msgstr "Responda um usuário ou mencione-o com o seu nome de usuário ou ID"
 
 #: plugins/users.lua:158
 msgid ""
@@ -2903,7 +2898,7 @@ msgid ""
 "Probably I'm not an Admin, or the user is an Admin iself"
 msgstr ""
 "Eu não posso kickar este usuário.\n"
-"Provavelmente eu não sou um administrador desse grupo, ou talvez ele seja."
+"Provavelmente não sou um administrador, ou o usuário é um administrador"
 
 #: plugins/warn.lua:115
 #, lua-format
